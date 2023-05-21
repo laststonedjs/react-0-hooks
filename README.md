@@ -12,11 +12,11 @@
 
 ### It will have users, and you'll be able to add, update, or delete users. We won't use any React classes, and instead we'll utilize State Hooks and Effect Hooks on functional components.
 
-## <<<<<<< HEAD
-
+## HOW TO START APP
 =======
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
 ## CSS Styles
 
