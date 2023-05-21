@@ -1,9 +1,7 @@
 # React-O-Hooks
 
 ---
-
-## React CRUD App
-
+## CRUD App built with React
 ---
 
 ## Goals
