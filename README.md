@@ -1,7 +1,10 @@
-# reactos_ecosystem
+# ReactOhooks
+
 
 ---
+## Goals
 
-### Through this repo, I plan to further upgrade my level of knowledge in React, learn some new features such as state management, react-router, manipulate the DOM with react refs..
+### Through this repo, I plan to build some kind of CRUD application in React, using and emphazinig react hooks.
+### It will have users, and you'll be able to add, update, or delete users. We won't use any React classes, and instead we'll utilize State Hooks and Effect Hooks on functional components.
 
 ---
