@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 // components
 import UserTable from './tables/UserTable'
+// data
+import { usersData } from './data/dummy';
 
 const App = () => {
+  const [users, setUsers] = useState(usersData);
+
   return (
     <div className="container">
       <h1>React-O-Hooks</h1>
@@ -12,7 +16,7 @@ const App = () => {
         </div>
         <div className="flex-large">
           <h2>View users</h2>
-          <UserTable />
+          <UserTable users={users} />
         </div>
       </div>
     </div>
