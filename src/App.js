@@ -14,6 +14,11 @@ const App = () => {
     setUsers([...users, user]);
   }
 
+  // deleting the user, function in which we will take the ID of the user and filter them out of the user array 
+  const deleteUser = (id) => {
+    setUsers(users.filter((user) => user.id !== id))
+  }
+
   return (
     <div className="container">
       <h1>React-O-Hooks</h1>
@@ -24,7 +29,7 @@ const App = () => {
         </div>
         <div className="flex-large">
           <h2>View users</h2>
-          <UserTable users={users} />
+          <UserTable users={users} deleteUser={deleteUser} />
         </div>
       </div>
     </div>
